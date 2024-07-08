@@ -1,49 +1,58 @@
-# Statistical_Analysis_inR
+# Statistical Analysis in R
+
 This repository contains the project report for the Applied Statistics in Engineering course, where we analyzed data related to lubricant packaging processes.
 
-# Introduction
-This project was undertaken as part of the Applied Statistics in Engineering course, focusing on data analysis using R programming language. The data used throughout the exercises was imported from an Excel file related to Group 12.
+## Introduction
 
-To analyze the behavior of each variable, various tests were employed with a significance level of 5% and 95% confidence intervals. As these variables are real data, negative values are not expected. Therefore, it was necessary to observe the variables to eliminate these values for a correct analysis.
+This project was undertaken as part of the Applied Statistics in Engineering course, focusing on data analysis using the R programming language. The data used throughout the exercises were imported from an Excel file related to Group 12.
 
-The process is described in three distinct phases: filling, labeling, and packaging. Our report follows the structure provided by the course instructor to ensure completeness and adherence to the assignment guidelines.
+To ensure accurate analysis, variables were inspected for negative values, which were removed as they were not expected in the dataset. The analysis proceeded through three phases: filling, labeling, and packaging, following the structure provided by the course instructor to maintain completeness and adherence to assignment guidelines.
 
-# Questions
-# Question 1: Probabilistic Characterization of Velo
-In this question, we characterize the probabilistic behavior of the variable Velo, aiming to determine if it follows a Normal, Chi-square, or Uniform distribution. Initially, a histogram analysis suggests a Normal distribution. Subsequent tests including Anderson-Darling, Kolmogorov-Smirnoff, and Shapiro-Wilk tests confirm that Velo follows a Normal distribution.
+## Questions
 
-# Question 2: Ideal Behavior of Press
-We examine whether the behavior of the variable Press, with mean 350 and standard deviation 121, conforms to a Normal distribution. Tests including Chi-square, Kolmogorov-Smirnoff, and Anderson-Darling indicate that Press does not follow the ideal Normal distribution.
+### Question 1: Probabilistic Characterization of Velo
 
-# Question 3: Complaints about Packaging Proportions
-Complaints from distributors suggest discrepancies in the proportions of packaging types (A, B, M). Statistical tests, including a Chi-square test, confirm that the complaints are justified, indicating that the delivered proportions do not match the requested ratios.
+We characterize the probabilistic behavior of the variable Velo to determine if it follows a Normal, Chi-square, or Uniform distribution. Initial histogram analysis suggests a Normal distribution, which is confirmed by subsequent Anderson-Darling, Kolmogorov-Smirnoff, and Shapiro-Wilk tests.
 
-# Question 4: Linear Relationship of Tempo with Velo, Espe, and Resis
-We explore if the variable Tempo can be linearly explained by Velo, Espe, and Resis. Regression analysis shows that only Velo significantly contributes to explaining Tempo, while Espe and Resis do not.
+### Question 2: Ideal Behavior of Press
 
-# Question 5: Linear Relationship of Custo with Multiple Variables
-Analyzing the linear relationship between Custo and several variables (Velo, Press, Volu, Espe, Resis, Tempo), we find that only Velo, Press, and Tempo show a significant linear relationship. Statistical tests confirm that Espe, Resis, and Volu can be removed from the model without significantly affecting its explanatory power.
+We examine whether the behavior of the variable Press conforms to a Normal distribution with a mean of 350 and standard deviation of 121. Statistical tests, including Chi-square, Kolmogorov-Smirnoff, and Anderson-Darling, indicate that Press does not follow the ideal Normal distribution.
 
-# Question 6: Describing Custo for Packaging Type M
-a) We determine if a linear approximation using VeloM, PressM, VoluM, and TempoM is justified. Regression analysis suggests that only VeloM and TempoM show significant linear relationships with CustoM.
+### Question 3: Complaints about Packaging Proportions
 
-b) Testing the significance of VeloM in explaining CustoM confirms that VeloM can be excluded without affecting the model.
+Complaints from distributors regarding discrepancies in packaging proportions (A, B, M) are statistically confirmed using Chi-square tests, highlighting deviations from requested ratios.
 
-c) We establish a 95% confidence interval for CustoM based on PressM, VoluM, and TempoM, ensuring these variables collectively explain CustoM.
+### Question 4: Linear Relationship of Tempo with Velo, Espe, and Resis
 
-d) Investigating if labeling defects influence Custo, regression analysis shows no significant change in Custo due to labeling defects.
+Regression analysis explores the linear relationship between Tempo and variables Velo, Espe, and Resis. Results indicate that only Velo significantly contributes to explaining Tempo, while Espe and Resis do not.
 
-# Question 7: Average Cost Comparison Across Packaging Types
-We analyze if the average cost is similar across packaging types (A, B, M). Statistical tests reveal significant differences in mean costs among the three types of packaging.
+### Question 5: Linear Relationship of Custo with Multiple Variables
 
-# Conclusion
-This repository contains the complete report on our statistical analysis for the Applied Statistics in Engineering course. Each question was systematically addressed using appropriate statistical techniques and tests, providing insights into the variables' behaviors and relationships within the lubricant packaging process.
+We analyze the linear relationship between Custo and variables (Velo, Press, Volu, Espe, Resis, Tempo). Significant relationships are found with Velo, Press, and Tempo, with Espe, Resis, and Volu deemed non-significant through statistical tests.
 
-# Repository Contents
-**grupo12_LucasRocha en.pdf:** Detailed report on statistical analysis.
+### Question 6: Describing Custo for Packaging Type M
 
-**dataset.csv:** Folder containing relevant data files used for analysis.
+a) Regression analysis assesses linear relationships of CustoM with VeloM, PressM, VoluM, and TempoM, identifying significant relationships with VeloM and TempoM.
 
-**Code.r:** Folder containing R scripts used for data import, analysis, and visualization.
+b) Significance testing shows VeloM can be excluded without impacting the model.
 
-For further details, please refer to the complete report in **grupo12_LucasRocha en.pdf**
+c) A 95% confidence interval for CustoM based on PressM, VoluM, and TempoM is established to collectively explain CustoM.
+
+d) Labeling defects are assessed for impact on Custo, revealing no significant effect through regression analysis.
+
+### Question 7: Average Cost Comparison Across Packaging Types
+
+Statistical tests compare average costs across packaging types (A, B, M), revealing significant differences in mean costs among the three types.
+
+## Conclusion
+
+This repository contains a comprehensive report on the statistical analysis conducted for the Applied Statistics in Engineering course. Each question was addressed systematically using appropriate statistical techniques, providing insights into variable behaviors and relationships within the lubricant packaging process.
+
+## Repository Contents
+
+- **grupo12_LucasRocha_en.pdf**: Detailed report on statistical analysis.
+- **dataset.csv**: Folder containing relevant data files used for analysis.
+- **Code.r**: Folder containing R scripts used for data import, analysis, and visualization.
+
+For detailed information and implementation, please refer to the complete report in **grupo12_LucasRocha_en.pdf**.
+
