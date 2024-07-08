@@ -40,10 +40,10 @@ We analyze if the average cost is similar across packaging types (A, B, M). Stat
 This repository contains the complete report on our statistical analysis for the Applied Statistics in Engineering course. Each question was systematically addressed using appropriate statistical techniques and tests, providing insights into the variables' behaviors and relationships within the lubricant packaging process.
 
 # Repository Contents
-grupo12_LucasRocha en.pdf: Detailed report on statistical analysis.
+**grupo12_LucasRocha en.pdf:** Detailed report on statistical analysis.
 
-dataset.csv: Folder containing relevant data files used for analysis.
+**dataset.csv:** Folder containing relevant data files used for analysis.
 
-Code.r: Folder containing R scripts used for data import, analysis, and visualization.
+**Code.r:** Folder containing R scripts used for data import, analysis, and visualization.
 
-For further details, please refer to the complete report in grupo12_LucasRocha en.pdf
+For further details, please refer to the complete report in **grupo12_LucasRocha en.pdf**
