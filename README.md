@@ -42,8 +42,8 @@ This repository contains the complete report on our statistical analysis for the
 # Repository Contents
 grupo12_LucasRocha en.pdf: Detailed report on statistical analysis.
 
-dataset.csv/: Folder containing relevant data files used for analysis.
+dataset.csv: Folder containing relevant data files used for analysis.
 
-Code.r/: Folder containing R scripts used for data import, analysis, and visualization.
+Code.r: Folder containing R scripts used for data import, analysis, and visualization.
 
 For further details, please refer to the complete report in grupo12_LucasRocha en.pdf
